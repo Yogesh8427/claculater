@@ -1,0 +1,137 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(116, 116, 228), rgb(57, 155, 139), rgb(10, 165, 126), rgb(0, 255, 98), rgb(0, 255, 149), rgb(80, 153, 96), rgb(40, 40, 168));
+}
+h1{
+    font-size: xx-large;
+    background-color: rgba(87, 104, 98, 0.651);
+    padding: 5px;
+    border-radius: 15px;
+    margin: 1% 1% 1%;
+    color:lightgoldenrodyellow;
+}
+.contaner {
+    max-width: 900px;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    margin: 1% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+    border-radius: 40px;
+    /* border: 1px solid black; */
+}
+
+/* .contaner input{
+    padding: 10px;
+    width: 57%;
+} */
+.contaner input[type="text"] {
+    padding: 20px;
+    width: 76.1%;
+    border: none;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    font-size: x-large;
+    text-align: right;
+}
+
+.con {
+    margin-left: 0%;
+    width: 80.6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.con input {
+    width: 25%;
+    /* padding: 10px; */
+    padding-top: 20px;
+    font-size: x-large;
+    padding-bottom: 20px;
+    border: none;
+}
+
+.white:hover {
+    background-color: rgb(223, 219, 219);
+}
+
+#equal {
+    width: 49.9%;
+    border-bottom-right-radius: 30px;
+    background-color: rgba(255, 68, 0, 0.829);
+}
+
+#zero {
+    border-bottom-left-radius: 30px;
+}
+@media all and (min-width:861px) and (max-width:866px){
+    .contaner input[type="text"] {
+        width: 75.9%;
+    }
+
+}
+@media all and (max-width:861px) and(min-width:750px){
+    .contaner input[type="text"] {
+        width: 75.6%;
+    }
+}
+@media all and (max-width:500px) and(min-width:300px) {
+    .contaner input[type="text"] {
+        width: 60%;
+    }
+}
+@media all and (max-width:300px) {
+    .contaner input[type="text"] {
+        width: 65.9%;
+    }
+}
+@media all and (min-width:500px) and (max-width:600px){
+    .contaner input[type="text"] {
+        width: 73.7%;
+    }
+}
+
+
+/* dark mode */
+
+.dark{
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 6px;
+    margin-top: 5%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.596);
+    /* position: fixed;
+    top: 1%;
+    right: 20%; */
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.dark input[type='checkbox']{
+    border: 0px;
+    width: 50%;
+    height: 1.5em;
+}
+.dark_but{
+    background-color: rgb(48, 46, 46);
+    color: white;
+}
+.dark_inp{
+    background-color: rgb(82, 79, 79);
+    color: white;
+}
+.dark_but:hover{
+    background-color: rgb(29, 28, 28);
+    
+}
